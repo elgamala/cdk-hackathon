@@ -1,6 +1,12 @@
-# Welcome to your CDK TypeScript project!
+# Welcome to your CDK Hackathon TypeScript project!
 
-This is a blank project for TypeScript development with CDK.
+
+## Prerequisites:
+- brew install node
+- brew install npm
+- 
+
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
