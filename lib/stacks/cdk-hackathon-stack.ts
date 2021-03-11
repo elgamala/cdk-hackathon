@@ -20,9 +20,11 @@ export class CdkHackathonStack extends cdk.Stack {
             autoScalingGroup: asg
         })
 
-        new cdk.CfnOutput(this, 'LoadBalancerDnsName', {
-            exportName: 'LoadBalancerDnsName',
-            value: alb.loadBalancerDnsName
-        })
+        // 4. Create CloudFormation Output parameter
+        // TODO: Uncomment below snippet
+        // new cdk.CfnOutput(this, 'LoadBalancerDnsName', {
+        //     exportName: 'LoadBalancerDnsName',
+        //     value: alb.loadBalancerDnsName
+        // })
     }
 }

@@ -8,13 +8,6 @@ export class VPC extends Vpc {
             cidr: vpcCidr
         });
 
-        // Bonus: Enable flow logs
-        this.addFlowLog('VpcFlowLogs')
-
-        // Bonus: Add VPC Endpoint for S3
-        this.addGatewayEndpoint('S3Endpoint', {
-            service: GatewayVpcEndpointAwsService.S3
-        })
 
         this.addInterfaceEndpoint('ec2', {
             service: InterfaceVpcEndpointAwsService.EC2
