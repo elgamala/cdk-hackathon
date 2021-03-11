@@ -7,7 +7,7 @@
 
 ## Hackathon instructions:
 - Please search for `TODO:` in the code repo to complete the missing implementation
-- To track your progress, please run `npm tun test` You will see the test results
+- To track your progress, please run `npm run test` You will see the test results
 - Please search for `TODO:` in all files and follow the instructions
 
 ## CDK Prerequisites:
