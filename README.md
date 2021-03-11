@@ -1,7 +1,5 @@
 # Welcome to your CDK Hackathon TypeScript project!
 
-## Please note that all required infrastructure are automatically tested, top score is 26
-
 ## Target Architecture to be built
 ![title](resources/DesiredArchitecture.png)
 
@@ -26,3 +24,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+## Hint: Required infrastructure is automatically tested, top score is 26
+
