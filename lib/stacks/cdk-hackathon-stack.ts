@@ -3,9 +3,7 @@ import {VPC} from "../constructs/VPC";
 import {ASG} from "../constructs/ASG";
 import {ALB} from "../constructs/ALB";
 
-export class CdkHakathonStack extends cdk.Stack {
-
-    readonly albDnsName: string
+export class CdkHackathonStack extends cdk.Stack {
 
     constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
         super(scope, id, props);
@@ -22,7 +20,9 @@ export class CdkHakathonStack extends cdk.Stack {
             autoScalingGroup: asg
         })
 
-        this.albDnsName = alb.loadBalancerDnsName
-
+        new cdk.CfnOutput(this, 'LoadBalancerDnsName', {
+            exportName: 'LoadBalancerDnsName',
+            value: alb.loadBalancerDnsName
+        })
     }
 }
