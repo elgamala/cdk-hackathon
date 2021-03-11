@@ -6,15 +6,18 @@
 ## Hackathon instructions:
 - Please search for `TODO:` in the code repo to complete the missing implementation
 - To track your progress, please run `npm run test` You will see the test results
-- Please search for `TODO:` in all files and follow the instructions
 
 ## CDK Prerequisites:
-- brew install node
-- brew install npm
-- npm install -g aws-cdk
+- `brew install node`
+- `brew install npm`
+- `npm install -g aws-cdk`
+- `git clone https://github.com/aserour/cdk-hackathon.git` 
+- `cd cdk-hackathon`
+- `npm install`
+- `npm run test`
 
+For more details on the installation steps:, please visit: https://docs.aws.amazon.com/cdk/latest/guide/work-with-cdk-typescript.html
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
@@ -26,4 +29,11 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk synth`       emits the synthesized CloudFormation template
 
 ## Hint: Required infrastructure is automatically tested, top score is 26
+
+## Further reading:
+https://docs.aws.amazon.com/cdk/latest/guide/core_concepts.html
+https://docs.aws.amazon.com/cdk/latest/guide/videos.html
+https://docs.aws.amazon.com/cdk/latest/guide/aspects.html
+https://github.com/aws-samples/aws-cdk-examples
+
 
