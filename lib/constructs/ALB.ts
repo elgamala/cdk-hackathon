@@ -16,14 +16,9 @@ export class ALB extends ApplicationLoadBalancer {
             internetFacing: true
         });
 
-        const listener = this.addListener(`${id}HTTPListener`, {
-            port: 80
-        });
+        // TODO: Add ALB HTTP listener
 
-        listener.addTargets(`${id}EC2Fleet`, {
-            port: 80,
-            targets: [props.autoScalingGroup]
-        });
+        // TODO: Add TargetGroup
 
     }
 }
