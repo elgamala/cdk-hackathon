@@ -22,10 +22,11 @@
   },
   "dependencies": {
     "@aws-cdk/aws-autoscaling": "1.93.0",
-    "@aws-cdk/aws-iam": "1.93.0",
     "@aws-cdk/aws-ec2": "1.93.0",
     "@aws-cdk/aws-elasticloadbalancingv2": "1.93.0",
+    "@aws-cdk/aws-iam": "1.93.0",
     "@aws-cdk/core": "1.93.0",
+    "git-last-commit": "^1.0.0",
     "source-map-support": "^0.5.16"
   }
 }
