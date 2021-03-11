@@ -8,22 +8,7 @@ export class VPC extends Vpc {
             cidr: vpcCidr
         });
 
-
-        this.addInterfaceEndpoint('ec2', {
-            service: InterfaceVpcEndpointAwsService.EC2
-        })
-
-        this.addInterfaceEndpoint('ec2Msgs', {
-            service: InterfaceVpcEndpointAwsService.EC2_MESSAGES
-        })
-
-        this.addInterfaceEndpoint('ssm', {
-            service: InterfaceVpcEndpointAwsService.SSM
-        })
-
-        this.addInterfaceEndpoint('ssmMsgs', {
-            service: InterfaceVpcEndpointAwsService.SSM_MESSAGES
-        })
+        // TODO: Add your VPC Endpoints here
 
     }
 }

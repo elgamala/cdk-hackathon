@@ -11,20 +11,11 @@ export class CdkHackathonStack extends cdk.Stack {
         // 1. Create VPC
         const vpc = new VPC(this, 'VPC', '10.0.0.0/16')
 
-        // 2. Create ASG
-        const asg = new ASG(this, 'WebServerASG', vpc)
+        // 2. TODO: Create ASG
 
-        // 3. Create ALB
-        const alb = new ALB(this, 'ALB', {
-            vpc: vpc,
-            autoScalingGroup: asg
-        })
+        // 3. TODO: Create ALB
 
-        // 4. Create CloudFormation Output parameter
-        // TODO: Uncomment below snippet
-        // new cdk.CfnOutput(this, 'LoadBalancerDnsName', {
-        //     exportName: 'LoadBalancerDnsName',
-        //     value: alb.loadBalancerDnsName
-        // })
+        // 4. TODO: Create CloudFormation Output parameter
+
     }
 }
