@@ -1,6 +1,7 @@
 import {expect as expectCDK, matchTemplate, MatchStyle, haveResource} from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
 import * as CdkHackathon from '../lib/stacks/cdk-hackathon-stack';
+import any = jasmine.any;
 
 test('AutoScalingGroup Created', () => {
     const app = new cdk.App();
@@ -21,6 +22,17 @@ test('LaunchConfiguration Created', () => {
     const stack = new CdkHackathon.CdkHackathonStack(app, 'TestStack');
     // THEN
     expectCDK(stack).to(haveResource('AWS::AutoScaling::LaunchConfiguration', {}
+    ))
+});
+
+test('InstanceType t2.small Created', () => {
+    const app = new cdk.App();
+    // WHEN
+    const stack = new CdkHackathon.CdkHackathonStack(app, 'TestStack');
+    // THEN
+    expectCDK(stack).to(haveResource('AWS::AutoScaling::LaunchConfiguration', {
+            "InstanceType": "t2.small",
+        }
     ))
 });
 
