@@ -25,5 +25,5 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
-## Hint: All required infrastructure are automatically tested, top score is 26
+## Hint: Required infrastructure is automatically tested, top score is 26
 
