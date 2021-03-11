@@ -1,11 +1,19 @@
 # Welcome to your CDK Hackathon TypeScript project!
 
+## Please note that all required infrastructure are automatically tested, top score is 26
 
-## Prerequisites:
+## Target Architecture to be built
+![title](resources/DesiredArchitecture.png)
+
+## Hackathon instructions:
+- Please search for `TODO:` in the code repo to complete the missing implementation
+- To track your progress, please run `npm tun test` You will see the test results
+- Please search for `TODO:` in all files and follow the instructions
+
+## CDK Prerequisites:
 - brew install node
 - brew install npm
-- 
-
+- npm install -g aws-cdk
 
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
