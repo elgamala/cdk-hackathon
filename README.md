@@ -29,11 +29,14 @@ For more details on the installation steps:, please visit: https://docs.aws.amaz
  * `cdk synth`       emits the synthesized CloudFormation template
 
 ## Hint: Required infrastructure is automatically tested, top score is 26
+If you need any help on the scope of this hackathon, please checkout below links:
+Virtual Private Cloud (VPC): https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-ec2.Vpc.html
+AutoScalingGroup (ASG): https://docs.aws.amazon.com/cdk/api/latest/docs/aws-autoscaling-readme.html 
+Application LoadBalancer (ALB): https://docs.aws.amazon.com/cdk/api/latest/docs/aws-elasticloadbalancingv2-readme.html
 
 ## Further reading:
 https://docs.aws.amazon.com/cdk/latest/guide/core_concepts.html
 https://docs.aws.amazon.com/cdk/latest/guide/videos.html
 https://docs.aws.amazon.com/cdk/latest/guide/aspects.html
 https://github.com/aws-samples/aws-cdk-examples
-
 
