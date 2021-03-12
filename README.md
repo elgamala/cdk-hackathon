@@ -1,7 +1,7 @@
 # Welcome to your CDK Hackathon TypeScript project!
 
 ## Target Architecture to be built
-![title](resources/DesiredArchitecture.png)
+![Desired Architecture](resources/DesiredArchitecture.png)
 
 ## Hackathon instructions:
 - Please search for `TODO:` in the code repo to complete the missing implementation
@@ -28,7 +28,6 @@ For more details on the installation steps:, please visit: https://docs.aws.amaz
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
-## Hint: Required infrastructure is automatically tested, top score is 26
 If you need any help on the scope of this hackathon, please checkout below links:
 Virtual Private Cloud (VPC): https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-ec2.Vpc.html
 AutoScalingGroup (ASG): https://docs.aws.amazon.com/cdk/api/latest/docs/aws-autoscaling-readme.html 
@@ -40,3 +39,5 @@ https://docs.aws.amazon.com/cdk/latest/guide/videos.html
 https://docs.aws.amazon.com/cdk/latest/guide/aspects.html
 https://github.com/aws-samples/aws-cdk-examples
 
+## Hint: Required infrastructure is automatically tested against the below baseline, top score is 26
+![Desired Architecture](resources/cdk-tests.png)
