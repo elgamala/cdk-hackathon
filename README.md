@@ -1,3 +1,4 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/elgamala/cdk-hackathon.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/elgamala/cdk-hackathon/alerts/)
 # Welcome to your CDK Hackathon TypeScript project!
 
 ## Target Architecture to be built
