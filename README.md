@@ -1,4 +1,5 @@
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/elgamala/cdk-hackathon.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/elgamala/cdk-hackathon/alerts/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/elgamala/cdk-hackathon.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/elgamala/cdk-hackathon/alerts/) 
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/elgamala/cdk-hackathon.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/elgamala/cdk-hackathon/context:javascript)
 # Welcome to your CDK Hackathon TypeScript project!
 
 ## Target Architecture to be built
